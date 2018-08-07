@@ -14,18 +14,18 @@ public class Value {
 	
 	public int asInteger() {
 		
-		throw new ClassCastException("Tried to convert " + getClass().getSimpleName() + " to Boolean type");
+		throw new ClassCastException("Tried to convert " + getClass().getSimpleName() + " to Integer type");
 	}
 
 	
 	public double asFloat() {
 		
-		throw new ClassCastException("Tried to convert " + getClass().getSimpleName() + " to Boolean type");
+		throw new ClassCastException("Tried to convert " + getClass().getSimpleName() + " to Float type");
 	}
 
 	
 	public String asString() {
 		
-		throw new ClassCastException("Tried to convert " + getClass().getSimpleName() + " to Boolean type");
+		throw new ClassCastException("Tried to convert " + getClass().getSimpleName() + " to String type");
 	}
 }
